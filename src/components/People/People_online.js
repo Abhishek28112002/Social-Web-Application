@@ -47,7 +47,7 @@ function People_similar(props) {
               className="rounded-lg border border-gray-200 shadow-md m-2"
             >
               {!isHovering[index] && (
-                <div className="max-w-sm bg-gray  dark:bg-gray-800 dark:border-gray-700 m-4">
+                <div className="max-w-sm bg-gray   dark:border-gray-700 m-4">
                   <div className="flex flex-col items-center py-4">
                     <img
                       className="mb-3 w-24 h-24 rounded-full shadow-lg"
@@ -101,7 +101,7 @@ function People_similar(props) {
                 </div>
               )}
               {isHovering[index] && (
-                <div className="max-w-sm bg-gray  dark:bg-gray-800 dark:border-gray-700 m-4">
+                <div className="max-w-sm bg-gray   dark:border-gray-700 m-4">
                   <div className="flex flex-col items-center py-4">
                     <div
                       className="text-center text-xl m-5 "
@@ -121,13 +121,13 @@ function People_similar(props) {
                       <a
                         href="#"
                         style={{ backgroundColor: "#f0aba1" }}
-                        className="inline-flex items-center py-2 px-4  text-center text-gray-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
+                        className="inline-flex items-center py-2 px-4  text-center text-gray-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200  dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
                       >
                         Send Invitation
                       </a>
                       <a
                         href="#"
-                        className="inline-flex items-center py-2 px-4  text-center text-gray-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
+                        className="inline-flex items-center py-2 px-4  text-center text-black-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200  dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
                         onClick={() => setmodalq3(!modalq3)}
                       >
                         Know More

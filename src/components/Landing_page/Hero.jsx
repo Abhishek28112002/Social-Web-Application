@@ -10,7 +10,7 @@ function Hero() {
         <Qu1 show={modal} onHide={() => setmodal(false)} onAgain={()=>setmodal(true)} />
       </div>
       <div style={{ backgroundColor: " #fe634e", color: "#fff" }}>
-        <div className="wrapper  flex items-center justify-between px-[5rem]   w-[100vw] h-[36.01rem] relative z-[3]">
+        <div className="wrapper  flex items-center justify-between px-[5rem]   w-[100vw]   relative z-[3]" style={{height:'90vh'}}>
           <div className="headings flex flex-col items-start justify-center h-[100%] text-[3rem]">
             <h1
               style={{

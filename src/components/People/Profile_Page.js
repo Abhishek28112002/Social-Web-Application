@@ -29,7 +29,7 @@ function People_similar(props) {
    justifyContent : 'space-around',
    flexFlow : 'wrap'}}> 
     
-<div className="max-w-sm bg-gray  dark:bg-gray-800 dark:border-gray-700 m-4">
+<div className="max-w-sm bg-gray  dark:border-gray-700 m-4">
         
     <div className="flex flex-col items-center py-4">
         <img className="mb-3 w-24 h-24 rounded-full shadow-lg" src={Img1} alt="Bonnie image"/>
@@ -48,8 +48,8 @@ function People_similar(props) {
         </div>
         </div>
         <div className="flex mt-4 space-x-3 lg:mt-3">
-            <a href="#" style={{backgroundColor:'#f0aba1'}}  className="inline-flex items-center py-2 px-4  text-center text-gray-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700">Add Friend</a>
-            <a href="#" className="inline-flex items-center py-2 px-4  text-center text-gray-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700">Chat</a>
+            <a href="#" style={{backgroundColor:'#f0aba1'}}  className="inline-flex items-center py-2 px-4  text-center text-gray-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700">Add Friend</a>
+            <a href="#" className="inline-flex items-center py-2 px-4  text-center text-gray-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700">Chat</a>
         </div>
        
     </div>
